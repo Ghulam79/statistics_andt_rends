@@ -1,0 +1,19 @@
+To solve this problem, we need to analyze a dataset by creating specific types of plots and computing statistical moments. The solution involves data cleaning, visualization, and statistical analysis to derive insights from the data.
+Approach
+
+    1. Data Selection: Choose a dataset that allows for varied analysis. We selected the diabetes dataset from Kaggle, which includes attributes like LDL, HDL, BMI, Glucose, BloodPressure, HbA1c,	Triglycerides, WaistCircumference etc. in excel sheet.
+
+    2. Data Cleaning: Handle missing values, filter out invalid entries, and ensure correct data types.
+
+    3. Statistical Moments: Compute the mean, variance, skewness, and kurtosis for key numerical variables to understand their distributions.
+
+    Visualization: Create a relational plot (scatter plot), a categorical plot (histogram), and a statistical plot (correlation heatmap) to visualize relationships and distributions in the data.
+
+Solution Code is in visuals.py file.
+
+
+To run the code,
+1. Inslall the latest version of python.
+2. Create virtual environment.
+3. Run "pip install -r requirements.txt"
+4. Run "python visuals.py"
